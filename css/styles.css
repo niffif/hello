@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+/****** text-align will center any block that doesn't
+have a set width. If it does, using margin: ; 
+in the element (here, h1) to fix it where I want it. *****/
+
+/**********embedded fonts! 
+remember to add a link to google fonts in index.html*************/
+
+h1 {
+    margin-top: 0;
+    font-family: 'Sacramento', cursive;
+    padding-top: 50px;
+
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+/***top-container needs a relative positioning for bottomcloud's 
+absolute positioning to work as relative to top-container. relative -> 
+will leave a gap***/
+.top-container {
+    background-color: #EEEEEE;
+    position: relative;
+    padding-top: 100px;
+
+}
+
+.middle-container {
+    width: 200px;
+    height: 200px;
+    background-color: #DDDDDD;
+}
+
+.bottom-container {
+    width: 200px;
+    height: 200px;
+    background-color: #B7B78A;
+}
+
+.dev {
+    text-decoration: underline;
+}
+
+.topcloud {
+    position: absolute;
+    right: 200px;
+    top: 50px;
+
+}
+
+.bottomcloud {
+    position: absolute;
+    left: 200px;
+    bottom: 300px;
+}
